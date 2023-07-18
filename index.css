@@ -150,6 +150,20 @@ font-weight: 700;
 font-size: 18px;
 font-weight: 400;
 }
+.online-section{
+   padding-left: 40px;
+   padding-right: 40px;
+}
+.online-img{
+   display: flex;
+   grid-template-columns: repeat(1fr);
+   gap: 20px;
+}
+.img-text{
+    color: #534C64;
+font-size: 20px;
+font-weight: 500;
+}
 
 
 
