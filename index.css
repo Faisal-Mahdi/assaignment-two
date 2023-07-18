@@ -11,6 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin: 0 auto;
 }
 .logo-container{
     display: flex;
@@ -37,6 +38,7 @@
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    align-items: center;
 }
 a{
     color: #3C354F;
@@ -44,4 +46,16 @@ a{
     text-align: center;
     font-size: 18px;
     font-weight: 500;
+}
+.follow-btn{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right:50px ;
+    padding-left: 20px;
+}
+.youtube-svg{
+    margin-left: 22px;
+    margin-right: 16px;
 }
