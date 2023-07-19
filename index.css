@@ -359,6 +359,18 @@ padding-top: 18px;
 
 
 
+.online-img-hover:hover{
+         border: 5px solid red;
+}
+.btn-button:hover{
+    border: 1px solid #FF42A5;
+}
+
+
+
+
+
+
 
 
 
