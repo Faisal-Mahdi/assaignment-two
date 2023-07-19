@@ -131,18 +131,24 @@ border: none;
 /* games online styles*/
 .games-online-div{
     display: flex;
-    padding: 100px;
+    padding: 150px;
+    justify-content: space-around;
 }
 .games-online{
-
+    padding-right: 200px;
+      position: relative;
 }
 .games-onlineimgone{
-height: 50%;
-width: 50%;
+height: 100%;
+width: 100%;
 }
 .games-onlineimgtwo{
-    height: 50%;
+    height: 80%;
     width: 50%;
+    position: absolute;
+    left: 250px;
+    bottom: -50px;
+
 }
 .game-online-header{
     color: #0B0223;
@@ -163,7 +169,9 @@ font-size: 18px;
 font-weight: 400;
 padding-top: 24px;
 }
-
+.game-online-divtwo{
+    padding-left: 50px;
+}
 
 
 /* online section styles*/
