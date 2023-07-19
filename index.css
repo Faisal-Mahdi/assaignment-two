@@ -271,7 +271,7 @@ font-weight: 600;
 }
 /*bbutton styles*/
 .btn-section{
-   padding: 50px;
+   padding: 70px;
 }
 .btn-div{
     display: grid;
@@ -294,6 +294,9 @@ font-weight: 600;
 .button-ss img{
     height: 50px;
     width: 50px;
+}
+#gg{
+    padding-left: 50px;
 }
 
 
