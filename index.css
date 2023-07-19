@@ -220,8 +220,30 @@ font-weight: 600;
 }
 /*bbutton styles*/
 .btn-section{
-    padding: px;
+   padding: 50px;
 }
+.btn-div{
+    display: grid;
+    grid-template-columns: repeat(5,2fr);
+    gap: 20px;
+}
+.btn-button{
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+background: #FFF;
+}
+.button-ss h1{
+  padding-left: 15px;
+  color: #0B0223;
+font-size: 20px;
+font-weight: 600;
+}
+.button-ss img{
+    height: 50px;
+    width: 50px;
+}
+
 
 /*footer styles*/
 .footer{
@@ -251,6 +273,12 @@ gap: 60px;
 text-align: center;
 font-size: 18px;
 font-weight: 600;
+}
+.footer-icon{
+    height: 100%;
+    width: 100%;
+    color: #FFF;
+    gap: 20px;
 }
 .text-two-header{
     color: rgba(255, 255, 255, 0.60);
