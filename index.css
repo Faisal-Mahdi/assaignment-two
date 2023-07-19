@@ -386,4 +386,37 @@ padding-top: 18px;
     .nav-items-container{
         flex-direction: column;
     }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-content{
+        align-items:center ;
+    }
+    .banner-img{
+        height: auto;
+        width: auto;
+    }
+    .online-img{
+        flex-direction: column;
+    }
+    .career-main{
+        flex-direction: column;
+    }
+    .img{
+       position: static;
+       margin: auto;
+    }
+    .btn-div{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
