@@ -410,13 +410,21 @@ padding-top: 18px;
        margin: auto;
     }
     .btn-div{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
+        display: flex;
+        flex-direction: column;
         
     }
     .footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .footer-text{
+        display: grid;
+        grid-template-columns: repeat(3,-1fr);
+    }
+    .footer-text-two{
+        display: grid;
+        grid-template-columns: repeat(3,-1fr);
     }
 }
