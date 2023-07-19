@@ -95,7 +95,6 @@ font-size: 20px;
 font-weight: 500;
 padding-bottom: 30px;
 }
-
 .banner-img{
     height: 100%;
     width: 100%;
@@ -114,7 +113,9 @@ color: #FFF;
 font-size: 20px;
 font-weight: 600;
 border: none;
-
+}
+.signin:hover{
+    cursor: pointer;
 }
 .go-rogue{
     display: inline-flex;
@@ -127,6 +128,9 @@ border: none;
     font-size: 20px;
     font-weight: 600;
     border: none;
+}
+.go-rogue{
+    cursor: pointer;
 }
 /* games online styles*/
 .games-online-div{
@@ -270,6 +274,9 @@ font-size: 20px;
 font-weight: 600;
 border: none;
 color: #FF42A5;
+}
+.careers-btn:hover{
+    cursor: pointer;
 }
 /*bbutton styles*/
 .btn-section{
