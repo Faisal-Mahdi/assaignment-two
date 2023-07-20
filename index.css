@@ -136,7 +136,7 @@ border: none;
 .games-online-div{
     display: flex;
     padding: 150px;
-    justify-content: space-around;
+   
 }
 .games-online{
     padding-right: 200px;
@@ -407,13 +407,46 @@ padding-top: 18px;
     .banner-content{
         align-items:center ;
     }
-    .banner-img{
+    .banner-img img {
+        width: 100%;
         height: auto;
-        width: auto;
-    }
+      }
     .online-img{
         flex-direction: column;
     }
+    .games-online-div {
+        display: block;
+        padding: 50px;
+      }
+    
+      .games-online {
+        padding: 0;
+        position:relative;
+        top: 20px;
+      }
+    
+      
+      .games-onlineimgtwo {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-bottom: 20px;
+        top: -80px;
+        left: 20px;
+        
+
+      }
+    
+      .game-online-header {
+        font-size: 32px;
+        line-height: 40px;
+        padding-top: 40px;
+       padding-left: 45px;
+      }
+    
+      .game-online-divtwo {
+        padding-left: 0;
+      }
     .career-main{
         flex-direction: column;
     }
