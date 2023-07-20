@@ -508,4 +508,17 @@ padding-top: 18px;
         justify-content: center;
         align-items: center;
     }
+    .footer-text{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding-left: 80px;
+        padding-right: 80px;  
+    }
+    .footer-text-two{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .footer-pera{
+        padding-top: 50px;
+    }
 }
