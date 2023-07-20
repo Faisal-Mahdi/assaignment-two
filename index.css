@@ -522,3 +522,12 @@ padding-top: 18px;
         padding-top: 50px;
     }
 }
+
+
+/*medium devices*/
+@media screen and (min-width:576px) and (max-width:768px){
+   .nav-items-container{
+    
+    padding-left: 200px;
+   }
+}
